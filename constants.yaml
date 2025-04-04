@@ -1,0 +1,37 @@
+# constants.yaml
+data_paths:
+  input_parquet: "data/case_study_dataset.parquet"
+  output_csv: "data/input_data.csv"
+
+column_groups:
+  numerical_cols:
+    - numRooms
+    - rank
+    - starLevel
+    - customerReviewScore
+    - reviewCount
+    - minPrice
+    - minStrikePrice
+  date_cols:
+    - checkInDate
+    - checkOutDate
+    - searchDate
+  categorical_cols:
+    - destinationName
+    - vipTier
+    - deviceCode
+    - signedInFlag
+    - freeBreakfastFlag
+    - freeInternetFlag
+  id_cols:
+    - searchId
+    - userId
+    - hotelId
+    - brandId
+  target_cols:
+    - bookingLabel
+    - clickLabel
+  detailed_numerical_cols:
+    - starLevel
+    - customerReviewScore
+    - reviewCount
