@@ -1,0 +1,12 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore node modules
+node_modules/
+
+# Ignore environment files
+.env
+
+# Mac-specific
+.DS_Store
